@@ -11,7 +11,7 @@ li a {
     text-decoration: none;
     font-size: 20px;
     color: #ffffff;
-    
+    padding: 20px;
 }
 
 li{
@@ -19,11 +19,25 @@ li{
 }
 
 #logo {
-    height: 100px;
-    width: 150px;
+    height: 90px;
+    width: 140px;
 }
 
 ul {
     display: flex;
     flex-direction: row;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(44, 4, 44);
+    align-items: center ;
+}
+
+.caixa_img_logo {
+    height: 90px;
+    width: 90px;
+    background-color: rgb(29, 4, 61);
 }
