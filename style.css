@@ -81,12 +81,12 @@ ul {
 
 .caixa-texto-banner{
     width: 300px;
-    margin-left: 20px;
+    padding: 35px;
 }
 
 .caixa-btn-banner{
     margin-top: 17px;
-    margin-left: 34px;
+    margin-left: 35px;
 }
 
 .section-center{
@@ -98,12 +98,48 @@ ul {
     color: #ffffff;
     font-size: 40px;
     font-weight: 700px;
-    margin-top: 20px;
+    padding: 20px;
 }
 
 .estrutura-titulo{
     display: flex;
     justify-content: center;
+}
+
+.produtos{
+    height: 350px;
+    width: 200px;
+}
+
+.valor{
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.cores{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.laranja{
+    background-color: orange;
+}
+
+.caixa-cores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100px;
 }
 
 
