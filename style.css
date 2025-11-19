@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0; 
+    padding: 0;
 }
 
 
@@ -15,7 +15,7 @@ li a {
     padding: 20px;
 }
 
-li{
+li {
     list-style: none;
 }
 
@@ -31,7 +31,8 @@ ul {
 
 .menu {
     display: flex;
-    flex-direction: row;;
+    flex-direction: row;
+    ;
     align-items: center;
     justify-content: space-around;
 }
@@ -43,12 +44,12 @@ ul {
     justify-content: center;
 }
 
-.bi{
+.bi {
     font-size: 50px;
-    color: #4c544c;     
+    color: #4c544c;
 }
 
-.banner{
+.banner {
     background-image: url("./assets/banner.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,18 +58,19 @@ ul {
     border-radius: 25px;
     margin: auto;
     display: flex;
-    flex-direction: column;         
+    flex-direction: column;
     align-items: flex-start;
     justify-content: center;
 }
 
-.texto-banner{
+.texto-banner {
     font-size: 20px;
     color: #ffffff;
-    white-space: pre-line; /* Mantém quebras de linha no texto */
+    white-space: pre-line;
+    /* Mantém quebras de linha no texto */
 }
 
-.btn-banner{
+.btn-banner {
     height: 40px;
     width: 120px;
     border-radius: 50px;
@@ -79,70 +81,76 @@ ul {
     font-size: 15px;
 }
 
-.caixa-texto-banner{
+.caixa-texto-banner {
     width: 300px;
     padding: 35px;
 }
 
-.caixa-btn-banner{
+.caixa-btn-banner {
     margin-top: 17px;
     margin-left: 35px;
 }
 
-.section-center{
+.section-center {
     display: flex;
     justify-content: center;
 }
 
-.titulo-primario{
+.titulo-primario {
     color: #ffffff;
     font-size: 40px;
     font-weight: 700px;
     padding: 20px;
 }
 
-.estrutura-titulo{
+.estrutura-titulo {
     display: flex;
     justify-content: center;
 }
 
-.produtos{
+.produtos {
     height: 350px;
     width: 200px;
 }
 
-.valor{
+.valor {
     font-weight: bold;
     font-size: 20px;
     color: #ffffff;
+    display: flex;
+    justify-content: center;
+
 }
 
-.cores{
+.cores {
     width: 10px;
     height: 10px;
     border-radius: 50%;
 }
 
-.vermelho{
+.vermelho {
     background-color: red;
 }
 
-.azul{
+.azul {
     background-color: blue;
 }
 
-.laranja{
+.laranja {
     background-color: orange;
 }
 
-.caixa-cores{
+.caixa-cores {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    width: 100px;
+    justify-content: center;
+    gap: 10px; 
+    
 }
 
-
-
-
-
+.carrosel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
